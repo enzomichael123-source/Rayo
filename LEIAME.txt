@@ -1,0 +1,6 @@
+Coloque suas fotos aqui (formato .jpg). Nomes esperados pelo projeto:
+img/hero.jpg  img/colecao-inverno.jpg  img/colecao-verao.jpg
+img/produtos/ -> vestido-cetim-drapeado, vestido-broderie-amarracao, vestido-longo-poa, vestido-tomara-fenda,
+vestido-franjas-dourado, vestido-costas-nuas-rose, vestido-veludo-ombro-unico, vestido-trico-fenda,
+vestido-cetim-manga-longa, vestido-drapeado-vinho, vestido-lurex, vestido-midi-assimetrico (todos .jpg)
+Para usar outros nomes, altere os caminhos em js/products.js.

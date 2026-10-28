@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rayo — moda feminina (demonstração)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#app">Ir para o conteúdo</a>
+<p class="demo-bar">Loja de demonstração: produtos e pedidos são fictícios.</p>
+<header class="top">
+  <a class="brand" href="#/" aria-label="Rayo, página inicial">
+    <svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="9" fill="currentColor"/><g stroke="currentColor" stroke-width="4" stroke-linecap="round"><path d="M48 32h10M43.3 43.3l7.1 7.1M32 48v10M20.7 43.3l-7.1 7.1M16 32H6M20.7 20.7l-7.1-7.1M32 16V6M43.3 20.7l7.1-7.1"/></g></svg>
+    <span>Rayo</span>
+  </a>
+  <form class="search" id="search" role="search">
+    <label class="sr" for="q">Buscar produtos</label>
+    <input id="q" type="search" placeholder="Buscar">
+    <button type="submit">Buscar</button>
+  </form>
+  <div class="actions">
+    <button type="button" id="account" class="link">Minha conta</button>
+    <a href="#/carrinho" class="cart-link">Carrinho <span id="count" aria-label="itens no carrinho">0</span></a>
+  </div>
+  <nav aria-label="Coleções">
+    <a href="#/catalogo?cat=inverno">Inverno</a>
+    <a href="#/catalogo?cat=verao">Verão</a>
+    <a href="#/catalogo?cat=novidades">Novidades</a>
+    <a href="#/catalogo?cat=sale" class="sale">Sale</a>
+  </nav>
+</header>
+<main id="app" tabindex="-1"></main>
+<footer class="foot">
+  <div>
+    <h2>Rayo</h2>
+    <p>Moda feminina com a luz do sol.<br>Contato (demonstrativo): ola@rayo.example</p>
+    <p>Instagram · Pinterest · TikTok (links demonstrativos)</p>
+  </div>
+  <div>
+    <h2>Institucional</h2>
+    <ul><li><a href="#/sobre">Sobre a Rayo</a></li><li><a href="#/sobre">Trocas e devoluções</a></li><li><a href="#/sobre">Política de privacidade</a></li></ul>
+  </div>
+  <form id="news">
+    <h2>Novidades por e-mail</h2>
+    <label for="nl">Seu e-mail</label>
+    <input id="nl" type="email" required placeholder="voce@email.com">
+    <button type="submit">Quero receber</button>
+    <p class="small">Cadastro demonstrativo: nada é enviado.</p>
+  </form>
+</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="js/products.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
